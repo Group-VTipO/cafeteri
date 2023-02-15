@@ -19,9 +19,10 @@ class Menu:
 menu = Menu()
 
 # внесение меню в Объект
-menu.add_item('Cappuccino', 3.50, 'Espresso with frothed milk')
-menu.add_item('Latte', 4.00, 'Espresso with steamed milk')
-menu.add_item('Mocha', 4.50, 'Espresso with chocolate and steamed milk')
+menu.add_item('Cappuccino', 3.50, 'Эспрессо со взбитым молоком')
+menu.add_item('Latte', 4.00, 'Эспрессо с вспененным молоком')
+menu.add_item('Mocha', 4.50, 'Эспрессо с шоколадом и вспененным молоком')
+menu.add_item('Moxito', 3.00, 'Со льдом и лимоном')
 
 # Получить текущие пункты меню
 items = menu.get_items()
